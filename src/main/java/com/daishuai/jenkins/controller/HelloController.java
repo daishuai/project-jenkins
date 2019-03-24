@@ -19,4 +19,8 @@ public class HelloController {
         return "Hello World!";
     }
 
+    @GetMapping("/jenkins")
+    public String test() {
+        return "test jenkins";
+    }
 }
